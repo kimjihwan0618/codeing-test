@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>코딩테스트 | 프로그래머스</title>
+    <link rel="stylesheet" href="/assets/css/page.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">사이트별 코딩테스트 문제풀이</a></li>
+        <li class="active">&nbsp;>&nbsp;백준</li>
+      </ul>
+    </nav>
+    <main></main>
+  </body>
+  <script>
+    $('.question__tree>li>p').click(function (evt) {
+      $(this).parent().toggleClass('active');
+    });
+  </script>
+</html>
