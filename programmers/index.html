@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코딩테스트 | 프로그래머스</title>
-    <link rel="stylesheet" href="/assets/css/page.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="/index.html">사이트별 코딩테스트 문제풀이</a></li>
-        <li class="active">&nbsp;>&nbsp;프로그래머스</li>
-      </ul>
-    </nav>
-    <main>
-      <ul class="question__tree">
-        <li>
-          <p>Level1</p>
-          <ul>
-            <li>
-              <p>01. 달리기 경주</p>
-              <dl>
-                <dt>
-                  <li>
-                    <a
-                      href="https://codepen.io/kimjihwan0618/pen/poBwOGR?editors=0010"
-                      target="_blank"
-                      >문제 풀이 보기 →</a
-                    >
-                  </li>
-                </dt>
-                <dd><img src="/assets/img/programmers/level01/01.jpg" alt="" /></dd>
-              </dl>
-            </li>
-            <li><a href="./level1/question02.html">02. 추억 점수</a></li>
-            <li><a href="./level1/question03.html">03. 바탕화면 정리</a></li>
-          </ul>
-        </li>
-      </ul>
-    </main>
-  </body>
-  <script>
-    $('.question__tree>li>p').click(function (evt) {
-      $(this).parent().toggleClass('active');
-    });
-    $('.question__tree>li>ul>li>p').click(function (evt) {
-      $(this).parent().toggleClass('active');
-    });
-  </script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코딩테스트 | 프로그래머스</title>
+  <link rel="stylesheet" href="../assets/css/page.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/index.html">사이트별 코딩테스트 문제풀이</a></li>
+      <li class="active">&nbsp;>&nbsp;프로그래머스</li>
+    </ul>
+  </nav>
+  <main>
+    <ul class="question__tree">
+      <li>
+        <p>Level1</p>
+        <ul>
+          <li>
+            <p>01. 달리기 경주</p>
+            <dl>
+              <dt>
+                <a href="https://codepen.io/kimjihwan0618/pen/poBwOGR?editors=0010" target="_blank">문제 풀이 보기 →</a>
+              </dt>
+              <dd><img src="/assets/img/programmers/level01/01.jpg" alt="" /></dd>
+            </dl>
+          </li>
+          <li>
+            <p>02. 추억점수</p>
+            <dl>
+              <dt>
+                <a href="https://codepen.io/kimjihwan0618/pen/NWmvrwz?editors=0010" target="_blank">문제 풀이 보기 →</a>
+              </dt>
+              <dd><img src="/assets/img/programmers/level01/02.jpg" alt="" /></dd>
+            </dl>
+          </li>
+          <li>
+            <p>03. 바탕화면 정리</p>
+            <dl>
+              <dt>
+                <a href="https://codepen.io/kimjihwan0618/pen/NWmvrzL" target="_blank">문제 풀이 보기 →</a>
+              </dt>
+              <dd><img src="/assets/img/programmers/level01/03.jpg" alt="" /></dd>
+            </dl>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </main>
+</body>
+<script>
+  $('.question__tree>li>p').click(function (evt) {
+    $(this).parent().toggleClass('active');
+  });
+  $('.question__tree>li>ul>li>p').click(function (evt) {
+    $(this).parent().toggleClass('active');
+  });
+</script>
+
 </html>
