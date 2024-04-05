@@ -13,3 +13,7 @@ Level : 1
 - [01. 달리기 경주](https://codepen.io/kimjihwan0618/pen/poBwOGR?editors=0010)
 - [02. 추억점수](https://codepen.io/kimjihwan0618/pen/NWmvrwz?editors=0010)
 - [03. 바탕화면 정리](https://codepen.io/kimjihwan0618/pen/NWmvrzL)
+
+### 백준
+6단계
+- [너의 평점은 (문제 번호 : 25206)](https://www.acmicpc.net/source/share/7d6497d790f34f87acd958a395b96915)
