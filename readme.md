@@ -7,7 +7,7 @@
 
 ## 문제 풀이
 
-각 문제의 솔루션은 CodePen에서 확인할 수 있습니다.
+각 문제의 솔루션(solution)은 링크를 통해 확인할 수 있습니다.
 ### 프로그래머스
 Level : 1
 - [01. 달리기 경주](https://codepen.io/kimjihwan0618/pen/poBwOGR?editors=0010)
