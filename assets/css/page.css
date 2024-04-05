@@ -208,3 +208,50 @@ section a img {
   line-height: 1.8;
   word-wrap: break-word;
 }
+
+span {
+  display: block;
+  opacity: .9;
+  line-height: 1.72;
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+table td {
+  border: 1px solid rgb(210, 210, 210);
+  padding: 12px;
+}
+
+.question {
+  padding: 22px 0 0;
+}
+
+.question__tree li ul li>dl {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.question__tree li ul li>dl a {
+  margin-top: 52px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px dashed #999;
+  border-bottom: 2px dashed #999;
+  padding: 24px 0;
+}
+
+.question__tree li ul li>dl a:hover {
+  background: #e7e7e7;
+}
+
+.question__tree li ul li>dl ul {
+  opacity: .9;
+  margin-top: 16px;
+  text-indent: 12px;
+  font-weight: 300;
+}
