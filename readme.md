@@ -16,4 +16,6 @@ Level : 1
 
 ### 백준
 6단계
-- [너의 평점은 (문제 번호 : 25206)](https://www.acmicpc.net/source/share/7d6497d790f34f87acd958a395b96915)
+- [01. 너의 평점은 (문제 번호 : 25206)](https://www.acmicpc.net/source/share/7d6497d790f34f87acd958a395b96915)
+7단계
+- [01. 색종이 (문제 번호 : 2563)](https://www.acmicpc.net/source/share/c674d0d678334692829b70b584c94e40)
