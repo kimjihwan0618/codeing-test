@@ -77,9 +77,11 @@ nav ul li {
   box-sizing: border-box;
   height: 45px;
   overflow: hidden;
+  border-right: none;
 }
 
-.question__tree>li>ul>li:hover p {
+.question__tree>li>p:hover,
+.question__tree>li>ul>li:hover>p {
   background: #d7e2eb;
 }
 
@@ -96,7 +98,12 @@ nav ul li {
   width: 100%;
   margin-bottom: 16px;
   box-sizing: border-box;
+}
+
+.question__tree li>p {
   height: 45px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .question__tree li p {
@@ -104,16 +111,12 @@ nav ul li {
   cursor: pointer;
 }
 
-.question__tree>li:hover {
-  background: #d7e2eb;
-}
-
 .question__tree li ul li p {
   position: relative;
   cursor: pointer;
 }
 
-.question__tree>li::after,
+.question__tree li>p:after,
 .question__tree li ul li p::after {
   position: absolute;
   content: '▼';
@@ -123,12 +126,12 @@ nav ul li {
   right: 24px;
 }
 
-.question__tree>li.active,
+
 .question__tree li ul li.active p {
   background: #d7e2eb;
 }
 
-.question__tree>li.active:after,
+.question__tree>li.active>p:after,
 .question__tree li ul li.active p::after {
   -webkit-transform: translateY(-50%) rotate(180deg);
 }
