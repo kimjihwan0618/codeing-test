@@ -1,13 +1,12 @@
 const fs = require('fs');
 const filePath = process.platform === 'linux' ? '/dev/stdin' : `${__dirname}/input.txt`;
+let n = Number(fs.readFileSync(filePath).toString());
 
-let [num, divider] = fs
-  .readFileSync(filePath)
-  .toString()
-  .trim()
-  .split(' ')
-  .map((item) => Number(item));
+let count = 1;
+let sum = 1;
+while (sum < n) {
+  sum += 6 * count;
+  count++;
+}
 
-let ans = num.toString(divider).toUpperCase();
-
-console.log(ans);
+console.log(count);
