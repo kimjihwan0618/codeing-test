@@ -30,3 +30,5 @@ Level : 1
 8단계
 
 - [01. 세탁소 사장 동혁 (문제 번호 : 2720)](https://www.acmicpc.net/source/share/db0ba2ee2ccd448ba84854a59b38f757)
+- [02. 중앙 이동 알고리즘 (문제 번호 : 2903)](https://www.acmicpc.net/source/share/3f64743f705e4993a2f2a0c4de21f9e5)
+- [03. 벌집 (문제 번호 : 2292)](https://www.acmicpc.net/source/share/a010bf7cecfc4f3f9cc3ee35acea0690)
