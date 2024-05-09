@@ -1,8 +1,6 @@
 # 코딩 테스트 연습
 
 여러 사이트의 코딩 테스트 문제풀이를 모아놓기 위한 저장소입니다.
-이저장소의 페이지 아래의 링크롤 통해 확인하실 수 있습니다.
-
 [https://kimjihwan0618.github.io/coding_test](https://kimjihwan0618.github.io/coding_test)
 
 ## 문제 풀이
