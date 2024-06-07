@@ -1,9 +1,3 @@
-<br />
-
-문제 풀이 이력 `24-06-07` 이후로 [https://kimjihwan0618.github.io](https://kimjihwan0618.github.io) 블로그에서 관리
-
-<br />
-
 ## 코딩 테스트 연습
 
 여러 사이트의 코딩 테스트 문제풀이를 모아놓기 위한 저장소입니다.
