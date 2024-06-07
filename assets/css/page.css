@@ -42,7 +42,7 @@ nav ul li {
   flex-wrap: wrap;
 }
 
-.question__tree > li > ul {
+.question__tree>li>ul {
   width: 100%;
   display: flex;
   font-weight: 700;
@@ -54,19 +54,21 @@ nav ul li {
   margin-top: 20px;
   display: flex;
   justify-content: flex-end;
+  width: 96%;
+  margin-left: 4%;
 }
 
-.question__tree > li > ul > li a {
+.question__tree>li>ul>li a {
   text-decoration: none;
   display: block;
   padding: 0.6875rem 1.25rem;
 }
 
-.question__tree > li > ul > li a:hover {
+.question__tree>li>ul>li a:hover {
   text-decoration: underline;
 }
 
-.question__tree > li > ul > li {
+.question__tree>li>ul>li {
   max-width: 1240px;
   border: 0.0625rem solid rgb(215, 226, 235);
   background-color: rgb(255, 255, 255);
@@ -80,17 +82,17 @@ nav ul li {
   border-right: none;
 }
 
-.question__tree > li > p:hover,
-.question__tree > li > ul > li:hover > p {
+.question__tree>li>p:hover,
+.question__tree>li>ul>li:hover>p {
   background: #d7e2eb;
 }
 
 /* #d7e2eb; */
-.question__tree > li > ul > li.active {
+.question__tree>li>ul>li.active {
   height: auto;
 }
 
-.question__tree > li {
+.question__tree>li {
   border: 0.0625rem solid rgb(215, 226, 235);
   background-color: rgb(255, 255, 255);
   border-radius: 0.25rem;
@@ -100,7 +102,7 @@ nav ul li {
   box-sizing: border-box;
 }
 
-.question__tree li > p {
+.question__tree li>p {
   height: 45px;
   box-sizing: border-box;
   position: relative;
@@ -116,7 +118,7 @@ nav ul li {
   cursor: pointer;
 }
 
-.question__tree li > p:after,
+.question__tree li>p:after,
 .question__tree li ul li p::after {
   position: absolute;
   content: '▼';
@@ -130,16 +132,16 @@ nav ul li {
   background: #d7e2eb;
 }
 
-.question__tree > li.active > p:after,
+.question__tree>li.active>p:after,
 .question__tree li ul li.active p::after {
   -webkit-transform: translateY(-50%) rotate(180deg);
 }
 
-.question__tree > li.active > ul {
+.question__tree>li.active>ul {
   display: flex;
 }
 
-.question__tree > li > ul {
+.question__tree>li>ul {
   display: none;
 }
 
@@ -196,13 +198,13 @@ section a img {
   margin: auto;
 }
 
-.question__notice > li > dl > dt {
+.question__notice>li>dl>dt {
   font-weight: 700;
   margin-bottom: 1rem;
   -webkit-font-smoothing: antialiased;
 }
 
-.question__notice > li > dl > dd {
+.question__notice>li>dl>dd {
   margin-bottom: 8px;
   font-weight: 400;
   letter-spacing: -0.1px;
@@ -230,7 +232,7 @@ table td {
   padding: 22px 0 0;
 }
 
-.question__tree li ul li > dl {
+.question__tree li ul li>dl {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -239,7 +241,7 @@ h3 {
   margin: 0px;
 }
 
-.question__tree li ul li > dl a {
+.question__tree li ul li>dl a {
   margin-top: 52px;
   width: 100%;
   font-size: 20px;
@@ -249,11 +251,11 @@ h3 {
   padding: 24px 0;
 }
 
-.question__tree li ul li > dl a:hover {
+.question__tree li ul li>dl a:hover {
   background: #e7e7e7;
 }
 
-.question__tree li ul li > dl ul {
+.question__tree li ul li>dl ul {
   opacity: 0.9;
   margin-top: 16px;
   text-indent: 12px;
